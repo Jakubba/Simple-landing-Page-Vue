@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-[#000000] min-h-screen min-w-full">
+  <div class="bg-[#000000] min-h-screen min-w-[100vw] overflow-x-hidden">
     <div
       v-if="isLoading"
-      class="flex items-center justify-center h-screen"
+      class="flex items-center justify-center h-screen w-[100vw]"
       aria-live="polite"
     >
       <img
@@ -23,7 +23,10 @@
         <div class="flame"></div>
       </div>
     </div>
-    <div v-else class="bg-[#000000] min-h-screen min-w-full relative fade-in-animation">
+    <div
+      v-else
+      class="bg-[#000000] min-h-screen min-w-[100vw] relative fade-in-animation"
+    >
       <Navbar />
       <HeroSection />
       <AboutSection />

@@ -1,10 +1,10 @@
 <template>
-  <section class="bg-[#a4895a] flex flex-col items-center justify-center p-2 md:p-10" data-aos="fade-zoom-in" data-aos-anchor-placement="center-bottom" data-aos-delay="800"  data-aos-duration="1000" data-aos-offset="300">
+  <section class="bg-[#a4895a] flex flex-col items-center justify-center p-10 md:p-10" data-aos="fade-zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-offset="300">
     <div class="flex flex-col justify-center gap-10 md:items-center md:flex-row">
-      <div class="relative w-full h-full md:w-1/2 frame-only" data-aos="fade-right"
-     data-aos-offset="800"
-     data-aos-anchor-placement="top-bottom"
-     data-aos-easing="ease-in-sine">
+      <div class="relative w-full h-full md:w-1/2 frame-only" 
+            data-aos="fade-right"
+            data-aos-delay="800"
+            data-aos-easing="ease-in-sine">
         <img class="relative z-[10]" src="./../assets/image/heroSection/maxmagnificent_black_dragon.png" alt=""></img>
       </div>
       <div class="flex flex-col items-center justify-center w-full h-full md:w-1/2 md:items-start" >

@@ -1,8 +1,16 @@
 <template>
   <section>
-    <ul class="flex flex-wrap px-10 py-20 max-w-[2100px] mx-auto">
+    <h3 class="mb-4 text-4xl text-center font-secondary">Events</h3>
+    <div class="h-full p-10 pt-0 m-auto max-w-[560px] w-[60%] min-w-[310px]">
+      <img
+        class="object-contain w-full h-full"
+        src="./../assets/image/title/oranment-title.svg"
+        alt="ornament title"
+      />
+    </div>
+    <ul class="flex flex-wrap px-10 py-2 max-w-[2100px] mx-auto">
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -31,7 +39,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -60,7 +68,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -89,7 +97,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -118,7 +126,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -147,7 +155,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -176,7 +184,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -205,7 +213,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -234,7 +242,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"
@@ -263,7 +271,7 @@
         </div>
       </li>
       <li
-        class="w-full p-2 sm:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-easing="linear"

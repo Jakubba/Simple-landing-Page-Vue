@@ -2,7 +2,6 @@
   <section
     class="relative z-10 w-full h-full p-10 overflow-hidden"
     data-aos="fade-zoom-in"
-    data-aos-anchor-placement="center-bottom"
     data-aos-delay="800"
     data-aos-duration="800"
   >
@@ -20,7 +19,7 @@
       <div
         class="w-[auto] h-[250px] z-10 hidden md:block"
         data-aos="fade-zoom-in"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
         data-aos-delay="1000"
         data-aos-duration="1000"
       >
@@ -30,7 +29,7 @@
         <div
           class="h-[100px] w-[auto] mb-10"
           data-aos="fade-zoom-in"
-          data-aos-anchor-placement="center-bottom"
+          data-aos-anchor-placement="top-bottom"
           data-aos-delay="100"
           data-aos-duration="800"
         >
@@ -43,7 +42,7 @@
         <p
           class="text-center"
           data-aos="fade-zoom-in"
-          data-aos-anchor-placement="center-bottom"
+          data-aos-anchor-placement="top-bottom"
           data-aos-delay="600"
           data-aos-duration="800"
         >
@@ -55,7 +54,7 @@
       <div
         class="w-[auto] h-[250px] z-10 hidden md:block"
         data-aos="fade-zoom-in"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
         data-aos-delay="1500"
         data-aos-duration="1000"
       >

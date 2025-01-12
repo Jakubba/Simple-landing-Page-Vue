@@ -6,7 +6,6 @@
     data-aos-delay="300"
     data-aos-duration="800"
   >
-    >
     <swiper :modules="[Thumbs]" :thumbs="{ swiper: thumbsSwiper }" class="main-swiper">
       <swiper-slide>
         <div class="flex items-center justify-center h-full">
@@ -73,9 +72,9 @@
       data-aos="fade-left"
       data-aos-anchor-placement="top-bottom"
     >
-      <swiper-slide class="border-3 border-[#4a3c27] !w-[80px]">
+      <swiper-slide class="!w-[80px]">
         <div
-          class="flex items-center justify-center p-2 border cursor-pointer hover:bg-[#4a3c27]"
+          class="flex items-center justify-center p-2 cursor-pointer hover:bg-[#4a3c27] frame-button h-[80px]"
         >
           <img
             class="w-[auto] h-[50px]"
@@ -84,9 +83,9 @@
           />
         </div>
       </swiper-slide>
-      <swiper-slide class="border border-[#4a3c27] !w-[80px]">
+      <swiper-slide class="!w-[80px]">
         <div
-          class="flex items-center justify-center p-2 border cursor-pointer hover:bg-[#4a3c27]"
+          class="flex items-center justify-center p-2 cursor-pointer hover:bg-[#4a3c27] frame-button h-[80px]"
         >
           <img
             class="w-[auto] h-[50px]"
@@ -95,9 +94,9 @@
           />
         </div>
       </swiper-slide>
-      <swiper-slide class="border border-[#4a3c27] !w-[80px]">
+      <swiper-slide class="!w-[80px]">
         <div
-          class="flex items-center justify-center p-2 border cursor-pointer hover:bg-[#4a3c27]"
+          class="flex items-center justify-center p-2 cursor-pointer hover:bg-[#4a3c27] frame-button h-[80px]"
         >
           <img
             class="w-[auto] h-[50px]"
@@ -148,5 +147,31 @@ export default {
   position: absolute;
   bottom: 40px;
   left: calc(90% - 250px);
+  @media (max-width: 1024px) {
+    bottom: -40px;
+    left: calc(50% - 130px);
+  }
+  .swiper-slide-thumb-active {
+    background-color: #4a3c27;
+  }
+}
+.frame-button {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../assets/image/button/button-bg-left.svg'),
+      url('./../assets/image/button/button-bg-right.svg');
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: left center, right center;
+    transform-origin: center;
+    z-index: 20;
+    transition: background-image 0.5s ease-in-out;
+  }
 }
 </style>

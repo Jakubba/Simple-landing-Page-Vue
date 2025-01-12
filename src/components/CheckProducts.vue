@@ -4,15 +4,22 @@
       class="mySwiper h-[60vh]"
       watch-slides-progress="true"
       space-between="10"
-      slides-per-view="1.5"
+      slides-per-view="1"
+      breakpoints="{
+        992: {
+          slidesPerView: 2
+        }
+      }"
       data-aos-delay="400"
       data-aos-duration="1000"
       data-aos="fade-left"
       data-aos-anchor-placement="top-bottom"
     >
       <swiper-slide>
-        <div class="flex items-center justify-center w-full min-h-[60vh] z-10 p-10">
-          <div class="relative w-[40%] frame">
+        <div
+          class="flex flex-col items-center justify-center w-full min-h-[60vh] z-10 p-10 md:flex-row"
+        >
+          <div class="relative w-[60%] md:w-[40%] frame frame">
             <img
               class="absolute top-[50%] left-[50%] w-[80%] h-[80%] z-2 translate-x-[-50%] translate-y-[-50%] anim-rotate"
               src="./../assets/image//icons/circle-star.svg"
@@ -21,7 +28,7 @@
             <img class="relative z-10" src="./../assets/image/figures/1-11.png" alt="" />
           </div>
           <div
-            class="flex flex-col items-center justify-center p-10 font-secondary w-[60%]"
+            class="flex flex-col items-center justify-center p-10 font-secondary w-full md:w-[60%]"
           >
             <h4 class="mb-8 text-5xl font-bold text-[#a4895a]">Magma Dragon</h4>
             <p class="text-xl">
@@ -35,8 +42,10 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="flex items-center justify-center w-full min-h-[60vh] z-10 p-10">
-          <div class="relative w-[40%] frame">
+        <div
+          class="flex flex-col items-center justify-center w-full min-h-[60vh] z-10 p-10 md:flex-row"
+        >
+          <div class="relative w-[60%] md:w-[40%] frame">
             <img
               class="absolute top-[50%] left-[50%] w-[80%] h-[80%] z-2 translate-x-[-50%] translate-y-[-50%] anim-rotate"
               src="./../assets/image//icons/circle-star.svg"
@@ -45,7 +54,7 @@
             <img class="relative z-10" src="./../assets/image/figures/1-21.png" alt="" />
           </div>
           <div
-            class="flex flex-col items-center justify-center p-10 font-secondary w-[60%]"
+            class="flex flex-col items-center justify-center p-10 font-secondary w-full md:w-[60%]"
           >
             <h4 class="mb-8 text-5xl font-bold text-[#a4895a]">Thargrim Ironhammer</h4>
             <p class="text-xl">
@@ -63,8 +72,10 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="flex items-center justify-center w-full min-h-[60vh] z-10 p-10">
-          <div class="relative w-[40%] frame">
+        <div
+          class="flex flex-col items-center justify-center w-full min-h-[60vh] z-10 p-10 md:flex-row"
+        >
+          <div class="relative w-[60%] md:w-[40%] frame frame">
             <img
               class="absolute top-[50%] left-[50%] w-[80%] h-[80%] z-2 translate-x-[-50%] translate-y-[-50%] anim-rotate"
               src="./../assets/image//icons/circle-star.svg"
@@ -73,7 +84,7 @@
             <img class="relative z-10" src="./../assets/image/figures/1-31.png" alt="" />
           </div>
           <div
-            class="flex flex-col items-center justify-center p-10 font-secondary w-[60%]"
+            class="flex flex-col items-center justify-center p-10 font-secondary w-full md:w-[60%]"
           >
             <h4 class="mb-8 text-5xl font-bold text-[#a4895a]">Gortharn Shadowroot</h4>
             <p class="text-xl">
@@ -91,8 +102,10 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="flex items-center justify-center w-full min-h-[60vh] z-10 p-10">
-          <div class="relative w-[40%] frame">
+        <div
+          class="flex flex-col items-center justify-center w-full min-h-[60vh] z-10 p-10 md:flex-row"
+        >
+          <div class="relative w-[60%] md:w-[40%] frame frame">
             <img
               class="absolute top-[50%] left-[50%] w-[80%] h-[80%] z-2 translate-x-[-50%] translate-y-[-50%] anim-rotate"
               src="./../assets/image//icons/circle-star.svg"
@@ -105,7 +118,7 @@
             />
           </div>
           <div
-            class="flex flex-col items-center justify-center p-10 font-secondary w-[60%]"
+            class="flex flex-col items-center justify-center p-10 font-secondary w-full md:w-[60%]"
           >
             <h4 class="mb-8 text-5xl font-bold text-[#a4895a]">Nytheris the Owlmaw</h4>
             <p class="text-xl">
@@ -124,8 +137,10 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="flex items-center justify-center w-full min-h-[60vh] z-10 p-10">
-          <div class="relative w-[40%] frame">
+        <div
+          class="flex flex-col items-center justify-center w-full min-h-[60vh] z-10 p-10 md:flex-row"
+        >
+          <div class="relative w-[60%] md:w-[40%] frame frame">
             <img
               class="absolute top-[50%] left-[50%] w-[80%] h-[80%] z-2 translate-x-[-50%] translate-y-[-50%] anim-rotate"
               src="./../assets/image//icons/circle-star.svg"
@@ -134,7 +149,7 @@
             <img class="relative z-10" src="./../assets/image/figures/1-12.png" alt="" />
           </div>
           <div
-            class="flex flex-col items-center justify-center p-10 font-secondary w-[60%]"
+            class="flex flex-col items-center justify-center p-10 font-secondary w-full md:w-[60%]"
           >
             <h4 class="mb-8 text-5xl font-bold text-[#a4895a]">Grakthar Wanderfang</h4>
             <p class="text-xl">
@@ -153,8 +168,10 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="flex items-center justify-center w-full min-h-[60vh] z-10 p-10">
-          <div class="relative w-[40%] frame">
+        <div
+          class="flex flex-col items-center justify-center w-full min-h-[60vh] z-10 p-10 md:flex-row"
+        >
+          <div class="relative w-[60%] md:w-[40%] frame frame">
             <img
               class="absolute top-[50%] left-[50%] w-[80%] h-[80%] z-2 translate-x-[-50%] translate-y-[-50%] anim-rotate"
               src="./../assets/image//icons/circle-star.svg"
@@ -167,7 +184,7 @@
             />
           </div>
           <div
-            class="flex flex-col items-center justify-center p-10 font-secondary w-[60%]"
+            class="flex flex-col items-center justify-center p-10 font-secondary w-full md:w-[60%]"
           >
             <h4 class="mb-8 text-5xl font-bold text-[#a4895a]">Kaelmir Dusksoul</h4>
             <p class="text-xl">

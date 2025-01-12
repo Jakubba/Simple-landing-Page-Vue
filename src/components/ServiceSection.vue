@@ -12,150 +12,151 @@
     <div>
       <img src="" alt="" />
     </div>
-    <div>
-      <ul
-        class="flex items-center justify-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
+    <ul
+      class="flex flex-wrap items-center justify-center w-full space-y-5 md:flex-row md:space-x-5 md:space-y-0"
+    >
+      <li
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-easing="linear"
+        data-aos-delay="300"
+        class="w-full md:w-1/3"
       >
-        <li
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-easing="linear"
-          data-aos-delay="300"
+        <div
+          class="relative frame md:max-w-[400px] p-20 flex flex-col justify-center items-center overflow-hidden hover:scale-105 bg-gray-800 transition-all ease-in-out"
         >
-          <div
-            class="relative frame max-w-[400px] p-20 flex flex-col justify-center items-center overflow-hidden hover:scale-105 bg-gray-800 transition-all ease-in-out"
-          >
-            <div class="flex items-center justify-center mb-2">
-              <h4 class="text-4xl font-bold font-secondary">Adept</h4>
-            </div>
-            <div class="flex flex-col items-center justify-center mb-8">
-              <p class="mb-2 text-2xl font-secondary">$ 9,99</p>
-              <p class="mb-4">//MONTH</p>
-              <button
-                class="p-2 px-6 border-2 border-[#a4895a] rounded-none hover:bg-[#a4895a] hover:border-[white] transition-all ease-in-out"
-              >
-                Subscribe now
-              </button>
-            </div>
-            <div>
-              <p class="mb-6">By becoming a Hero in October, you will receive:</p>
-              <ul class="custom-list">
-                <li class="relative pl-8">
-                  The Justiciars of Drechtschild
-                  <ul class="pl-10 list-disc">
-                    <li>1 tarot-themed miniature</li>
-                    <li>18 enemy mianitures</li>
-                    <li>3 unique heros</li>
-                  </ul>
-                </li>
-                <li class="relative pl-8">
-                  Immediate access to our Welcome Pack Maeve's Magical Menagerie
-                </li>
-                <li class="relative pl-8">
-                  Loualty Rewards for 3-, 6-, 9- and 12 months subscribers
-                </li>
-                <li class="relative pl-8">
-                  50% off previous releases and individual files while you are subscribed
-                  to this tier
-                </li>
-              </ul>
-            </div>
+          <div class="flex items-center justify-center mb-2">
+            <h4 class="text-4xl font-bold font-secondary">Adept</h4>
           </div>
-        </li>
-        <li
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-easing="linear"
-          data-aos-delay="700"
+          <div class="flex flex-col items-center justify-center mb-8">
+            <p class="mb-2 text-2xl font-secondary">$ 9,99</p>
+            <p class="mb-4">//MONTH</p>
+            <button
+              class="p-2 px-6 border-2 border-[#a4895a] rounded-none hover:bg-[#a4895a] hover:border-[white] transition-all ease-in-out"
+            >
+              Subscribe now
+            </button>
+          </div>
+          <div>
+            <p class="mb-6">By becoming a Hero in October, you will receive:</p>
+            <ul class="custom-list">
+              <li class="relative pl-8">
+                The Justiciars of Drechtschild
+                <ul class="pl-10 list-disc">
+                  <li>1 tarot-themed miniature</li>
+                  <li>18 enemy mianitures</li>
+                  <li>3 unique heros</li>
+                </ul>
+              </li>
+              <li class="relative pl-8">
+                Immediate access to our Welcome Pack Maeve's Magical Menagerie
+              </li>
+              <li class="relative pl-8">
+                Loualty Rewards for 3-, 6-, 9- and 12 months subscribers
+              </li>
+              <li class="relative pl-8">
+                50% off previous releases and individual files while you are subscribed to
+                this tier
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li
+        class="w-full md:w-1/3"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-easing="linear"
+        data-aos-delay="700"
+      >
+        <div
+          class="relative frame-silver md:max-w-[400px] p-20 flex flex-col justify-center items-center overflow-hidden hover:scale-105 bg-gray-800 transition-all ease-in-out"
         >
-          <div
-            class="relative frame-silver max-w-[400px] p-20 flex flex-col justify-center items-center overflow-hidden hover:scale-105 bg-gray-800 transition-all ease-in-out"
-          >
-            <div class="flex items-center justify-center mb-2">
-              <h4 class="text-4xl font-bold font-secondary">Hero</h4>
-            </div>
-            <div class="flex flex-col items-center justify-center mb-8">
-              <p class="mb-2 text-2xl font-secondary">$ 14,99</p>
-              <p class="mb-4">//MONTH</p>
-              <button
-                class="p-2 px-6 border-2 border-[#717171] rounded-none hover:bg-[#717171] hover:border-[white] transition-all ease-in-out"
-              >
-                Subscribe now
-              </button>
-            </div>
-            <div>
-              <p class="mb-6">By becoming a Hero in October, you will receive:</p>
-              <ul class="custom-list">
-                <li class="relative pl-8">
-                  The Justiciars of Drechtschild
-                  <ul class="pl-10 list-disc">
-                    <li>1 tarot-themed miniature</li>
-                    <li>18 enemy mianitures</li>
-                    <li>3 unique heros</li>
-                  </ul>
-                </li>
-                <li class="relative pl-8">
-                  Immediate access to our Welcome Pack Maeve's Magical Menagerie
-                </li>
-                <li class="relative pl-8">
-                  Loualty Rewards for 3-, 6-, 9- and 12 months subscribers
-                </li>
-                <li class="relative pl-8">
-                  50% off previous releases and individual files while you are subscribed
-                  to this tier
-                </li>
-              </ul>
-            </div>
+          <div class="flex items-center justify-center mb-2">
+            <h4 class="text-4xl font-bold font-secondary">Hero</h4>
           </div>
-        </li>
-        <li
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-easing="linear"
-          data-aos-delay="900"
+          <div class="flex flex-col items-center justify-center mb-8">
+            <p class="mb-2 text-2xl font-secondary">$ 14,99</p>
+            <p class="mb-4">//MONTH</p>
+            <button
+              class="p-2 px-6 border-2 border-[#717171] rounded-none hover:bg-[#717171] hover:border-[white] transition-all ease-in-out"
+            >
+              Subscribe now
+            </button>
+          </div>
+          <div>
+            <p class="mb-6">By becoming a Hero in October, you will receive:</p>
+            <ul class="custom-list">
+              <li class="relative pl-8">
+                The Justiciars of Drechtschild
+                <ul class="pl-10 list-disc">
+                  <li>1 tarot-themed miniature</li>
+                  <li>18 enemy mianitures</li>
+                  <li>3 unique heros</li>
+                </ul>
+              </li>
+              <li class="relative pl-8">
+                Immediate access to our Welcome Pack Maeve's Magical Menagerie
+              </li>
+              <li class="relative pl-8">
+                Loualty Rewards for 3-, 6-, 9- and 12 months subscribers
+              </li>
+              <li class="relative pl-8">
+                50% off previous releases and individual files while you are subscribed to
+                this tier
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li
+        class="w-full md:w-1/3"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-easing="linear"
+        data-aos-delay="900"
+      >
+        <div
+          class="relative frame-red md:max-w-[400px] p-20 flex flex-col justify-center items-center overflow-hidden hover:scale-105 bg-gray-800 transition-all ease-in-out"
         >
-          <div
-            class="relative frame-red max-w-[400px] p-20 flex flex-col justify-center items-center overflow-hidden hover:scale-105 bg-gray-800 transition-all ease-in-out"
-          >
-            <div class="flex items-center justify-center mb-2">
-              <h4 class="text-4xl font-bold text-red-800 font-secondary">Legend</h4>
-            </div>
-            <div class="flex flex-col items-center justify-center mb-8">
-              <p class="mb-2 text-2xl font-secondary">$ 19,99</p>
-              <p class="mb-4">//MONTH</p>
-              <button
-                class="p-2 px-6 border-2 border-[#a45a5a] rounded-none hover:bg-[#a45a5a] hover:border-[white] transition-all ease-in-out"
-              >
-                Subscribe now
-              </button>
-            </div>
-            <div>
-              <p class="mb-6">By becoming a Hero in October, you will receive:</p>
-              <ul class="custom-list">
-                <li class="relative pl-8">
-                  The Justiciars of Drechtschild
-                  <ul class="pl-10 list-disc">
-                    <li>1 tarot-themed miniature</li>
-                    <li>18 enemy mianitures</li>
-                    <li>3 unique heros</li>
-                  </ul>
-                </li>
-                <li class="relative pl-8">
-                  Immediate access to our Welcome Pack Maeve's Magical Menagerie
-                </li>
-                <li class="relative pl-8">
-                  Loualty Rewards for 3-, 6-, 9- and 12 months subscribers
-                </li>
-                <li class="relative pl-8">
-                  50% off previous releases and individual files while you are subscribed
-                  to this tier
-                </li>
-              </ul>
-            </div>
+          <div class="flex items-center justify-center mb-2">
+            <h4 class="text-4xl font-bold text-red-800 font-secondary">Legend</h4>
           </div>
-        </li>
-      </ul>
-    </div>
+          <div class="flex flex-col items-center justify-center mb-8">
+            <p class="mb-2 text-2xl font-secondary">$ 19,99</p>
+            <p class="mb-4">//MONTH</p>
+            <button
+              class="p-2 px-6 border-2 border-[#a45a5a] rounded-none hover:bg-[#a45a5a] hover:border-[white] transition-all ease-in-out"
+            >
+              Subscribe now
+            </button>
+          </div>
+          <div>
+            <p class="mb-6">By becoming a Hero in October, you will receive:</p>
+            <ul class="custom-list">
+              <li class="relative pl-8">
+                The Justiciars of Drechtschild
+                <ul class="pl-10 list-disc">
+                  <li>1 tarot-themed miniature</li>
+                  <li>18 enemy mianitures</li>
+                  <li>3 unique heros</li>
+                </ul>
+              </li>
+              <li class="relative pl-8">
+                Immediate access to our Welcome Pack Maeve's Magical Menagerie
+              </li>
+              <li class="relative pl-8">
+                Loualty Rewards for 3-, 6-, 9- and 12 months subscribers
+              </li>
+              <li class="relative pl-8">
+                50% off previous releases and individual files while you are subscribed to
+                this tier
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
   </section>
 </template>
 <style scoped>

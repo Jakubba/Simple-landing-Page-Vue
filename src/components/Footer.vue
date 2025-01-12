@@ -16,31 +16,33 @@
             alt=""
           />
         </div>
-        <div class="flex flex-col justify-start w-1/2 p-10 mb-5 md:w-1/4 lg:w-max">
+        <div class="flex flex-col justify-start w-full mb-5 md:p-10 md:w-1/4 lg:w-max">
           <h4 class="text-3xl font-secondary">The major Arcana</h4>
-          <ul>
-            <li><a href="">Releases</a></li>
-            <li><a href="">The Story</a></li>
+          <ul class="mt-6">
+            <li><a class="text-white hover:text-primary" href="">Releases</a></li>
+            <li><a class="text-white hover:text-primary" href="">The Story</a></li>
             <li>
-              <a href="">Subscriptions</a>
+              <a class="text-white hover:text-primary" href="">Subscriptions</a>
             </li>
           </ul>
         </div>
-        <div class="flex flex-col justify-start w-1/2 p-10 mb-5 md:w-1/4 lg:w-max">
+        <div class="flex flex-col justify-start w-full mb-5 md:p-10 md:w-1/4 lg:w-max">
           <h4 class="text-3xl font-secondary">Ordering</h4>
-          <ul>
-            <li><a href="">Shipping & returns</a></li>
-            <li><a href="">Payment methods</a></li>
+          <ul class="mt-6">
             <li>
-              <a href="">Cancellation Policy</a>
+              <a class="text-white hover:text-primary" href="">Shipping & returns</a>
+            </li>
+            <li><a class="text-white hover:text-primary" href="">Payment methods</a></li>
+            <li>
+              <a class="text-white hover:text-primary" href="">Cancellation Policy</a>
             </li>
           </ul>
         </div>
-        <div class="flex flex-col justify-start w-1/2 p-10 mb-5 md:w-1/4 lg:w-max">
+        <div class="flex flex-col justify-start w-full mb-5 md:p-10 md:w-1/4 lg:w-max">
           <h4 class="text-3xl font-secondary">About us</h4>
-          <ul>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Guides</a></li>
+          <ul class="mt-6">
+            <li><a class="text-white hover:text-primary" href="">FAQ</a></li>
+            <li><a class="text-white hover:text-primary" href="">Guides</a></li>
             <li>
               <ul class="flex space-x-2">
                 <li></li>
@@ -49,10 +51,10 @@
             </li>
           </ul>
         </div>
-        <div class="flex flex-col items-center justify-start w-full p-10 lg:w-max">
+        <div class="flex flex-col justify-start w-full md:items-center md:p-10 lg:w-max">
           <h4 class="mt-5 mb-4 text-2xl font-secondary">Subscribe to our newsletter</h4>
           <form action="" class="flex flex-col m-auto">
-            <div class="flex mb-4 space-x-5">
+            <div class="flex flex-wrap mb-4 space-y-5 sm:space-x-5 sm:space-y-0">
               <input
                 type="text"
                 placeholder="Full name*"
@@ -78,17 +80,23 @@
           </form>
         </div>
       </div>
-      <div class="flex justify-center w-full">
-        <p class="w-1/2">@2024 Jacob B</p>
-        <ul class="flex justify-between w-max">
-          <li class="p-2 px-6">
-            <a href="">Imprint</a>
+      <div
+        class="flex flex-col-reverse items-center w-full mt-8 justify--center md:flex-row"
+      >
+        <p class="w-1/2 mt-8 text-center font-secondary md:mt-0">@2024 Jacob B</p>
+        <ul
+          class="flex flex-col items-center justify-around w-full space-y-4 md:w-max md:flex-row md:space-x-5 md:space-y-0"
+        >
+          <li>
+            <a class="text-white hover:text-primary font-primary" href="">SLA</a>
           </li>
-          <li class="p-2 px-6">
-            <a href="">Privacy Policy</a>
+          <li>
+            <a class="text-white hover:text-primary font-primary" href=""
+              >Privacy Policy</a
+            >
           </li>
-          <li class="p-2 px-6">
-            <a href="">GTC</a>
+          <li>
+            <a class="text-white hover:text-primary font-primary" href="">Technology</a>
           </li>
         </ul>
       </div>
