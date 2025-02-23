@@ -11,11 +11,12 @@
   "dependencies": {
     "aos": "^2.3.4",
     "postcss-cli": "^11.0.0",
-    "swiper": "^8.4.7",
+    "swiper": "^11.2.4",
     "vue": "^3.5.13",
     "vue-awesome-swiper": "^5.0.1"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.20",
@@ -25,5 +26,8 @@
     "typescript": "~5.6.2",
     "vite": "^6.0.5",
     "vue-tsc": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
